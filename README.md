@@ -2,6 +2,15 @@
 
 ![image](imgs/graph.png)
 
+# Usage
+
+In your note, add property (`Ctrl+;` or `Ctrl+P` and `Add file property`) like this:
+```markdown
+---
+node_size: 100
+---
+```
+
 # Why?
 
 Obsidian is the best thing I've ever found in my life. However, it was with sadness that I found that going into the graph, I cannot see the actual structure of my notes. Now Obsidian only increases the node weight if there are many notes referencing it. This is not always correct, especially if you are just starting out in Obsidian.
