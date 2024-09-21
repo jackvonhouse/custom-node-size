@@ -13,7 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Если нужно собирать проект, добавьте здесь шаг сборки, например npm run build:
       - name: Install dependencies and build
         run: |
           npm install
@@ -21,10 +20,7 @@ jobs:
 
       - name: Prepare release files
         run: |
-          mkdir release
-          cp manifest.json main.js release/
-          cd release
-          zip -r release.zip .
+          zip -r release.zip manifest.json main.js
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
