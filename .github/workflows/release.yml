@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     tags:
-      - 'v*.*.*'
+      - '*.*.*'
 
 permissions:
   contents: write
@@ -21,13 +21,11 @@ jobs:
           npm install
           npm run build
 
-      - name: Prepare release files
-        run: |
-          zip -r release.zip manifest.json main.js
-
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          files: release.zip
+          files: |
+            main.js
+            manifest.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
