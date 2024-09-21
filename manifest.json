@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "custom-node-size",
+	"name": "Custom Node Size",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Custom nodes size for improved graph understanding.",
+	"author": "jackvonhouse",
+	"authorUrl": "https://github.com/jackvonhouse",
+	"fundingUrl": "https://github.com/jackvonhouse/custom-node-size",
 	"isDesktopOnly": false
 }

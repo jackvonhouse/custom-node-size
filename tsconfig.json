@@ -16,9 +16,10 @@
       "ES5",
       "ES6",
       "ES7"
-    ]
+    ],
+    "rootDir": "src"
   },
   "include": [
-    "**/*.ts"
+    "src/**/*.ts"
   ]
 }
