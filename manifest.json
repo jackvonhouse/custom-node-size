@@ -2,10 +2,10 @@
 	"id": "custom-node-size",
 	"name": "Custom Node Size",
 	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Custom nodes size for improved graph understanding.",
+	"minAppVersion": "1.6.7",
+	"description": "Customize nodes size for improved graph understanding.",
 	"author": "jackvonhouse",
 	"authorUrl": "https://github.com/jackvonhouse",
-	"fundingUrl": "https://github.com/jackvonhouse/custom-node-size",
+	"fundingUrl": "",
 	"isDesktopOnly": false
 }
